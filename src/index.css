@@ -116,4 +116,6 @@ small {
 .card--image {
     margin: 0 auto;
     display: block;
+    border: 0.5em solid #c44536;
+    padding: 0.7em;
 }

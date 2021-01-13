@@ -9,7 +9,7 @@ class Main extends React.Component {
       <div className="container">
         <h1 className="title">look for a book!</h1>
         <SearchBooks/>
-        <h4>Designed &amp; Developed with &hearts; Nina Kalpakis | 2021</h4>
+        <h4>Designed &amp; Developed with &hearts; by Nina Kalpakis | 2021</h4>
       </div>
     );
   }
