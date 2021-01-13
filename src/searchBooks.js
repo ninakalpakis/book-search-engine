@@ -34,7 +34,7 @@ export default function SearchBooks(){
             {books.items.map(book => (
                 <div className="card">
                     <img className="card--image"
-                    src={book.volumeInfo.imageLinks.thumbnail}
+                    src={book.volumeInfo.imageLinks?.thumbnail}
                     alt={book.volumeInfo.title + ' cover'}
                     />
                     <div className="card--content">
